@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trang Web Đầu Tiên</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 50px 40px;
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      max-width: 500px;
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 15px; }
+    p { font-size: 1.1rem; opacity: 0.9; margin-bottom: 25px; }
+    button {
+      padding: 12px 30px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 50px;
+      background: #fff;
+      color: #764ba2;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    button:hover { transform: scale(1.08); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🚀 Hello GitHub Pages!</h1>
+    <p>Trang web đầu tiên của tao đã chạy online rồi 😎</p>
+    <button onclick="alert('Chúc mừng! Web đã hoạt động 🎉')">
+      Bấm thử đi
+    </button>
+  </div>
+</body>
+</html>
